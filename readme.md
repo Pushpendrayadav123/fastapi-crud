@@ -1,6 +1,6 @@
 # For run the app
 
-cd fastapi-crud
+cd backend
 
 # create avirtual enviornment
 
@@ -12,7 +12,7 @@ source venv/bin/activate
 
 # Install
 
-pip install -r requirement.txt
+pip install -r requirements.txt
 
 # check
 
@@ -46,8 +46,8 @@ In a second terminal:
 
 ```bash
 cd frontend
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
 Open the URL Vite prints (normally `http://localhost:5173`). The UI calls the API at `http://localhost:8000` by default. To use a different URL, copy `.env.example` to `.env` and update `VITE_API_URL`.
